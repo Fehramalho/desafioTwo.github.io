@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(47, 88%, 63%);
+  height: 100vh;
+  overflow: hidden;
+  
+
+
+
+}
+
+.card {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    position: fixed;
+    padding: 15px;
+    background: hsl(0, 0%, 100%);
+    width: 220px;
+    height: 300px;
+    border-radius: 10px;
+    margin-bottom: 60px;
+    box-shadow: 5px 5px 5px hsl(0, 0%, 7%, 1);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 0;
+    width: 220px;
+    border-radius: 10px;
+}
+
+.learning {
+    background: hsl(47, 88%, 63%);
+    padding: 5px;
+    font-size: 10px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.date {
+    font-size: 9px;
+    margin: 0;
+}
+
+h1 {
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.descricao {
+    font-size: 9px;
+    color: rgba(0, 0, 0, 0.367);
+}
+
+.apresentacao {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 0;
+    align-items: center;
+    gap: 10px;
+    
+    
+}
+
+.avatar {
+    margin-top: 10px;
+    border-color: black;
+    width: 20px;
+    height: 20px;
+}
+
+.nome {
+    margin-top: 15px;
+  font-size: 8px;
+  font-weight: bold;
+    
+}
+
+.attribution{
+    display: flex;
+    flex-direction: column;
+   margin-top: 20px;
+}
